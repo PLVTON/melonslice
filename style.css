@@ -59,6 +59,12 @@ h1 {
     margin-bottom: 30px;
 }
 
+#undertext {
+    margin-top: 2px;
+    font-size: 18px;
+    text-align: center;
+}
+
 .game {
     width: 700px;
     height: 300px;
@@ -120,6 +126,17 @@ h1 {
     font-size: 18px;
 }
 
+h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.game a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .game p, .profile p {
     font-size: 18px;
     margin-top: 0px;
@@ -150,6 +167,15 @@ h1 {
 
 .youtube {
     background-position: 0 -64px;
+}
+
+.linkedin {
+    height: 32px;
+    width: 32px;
+    background-image: url("linkedin.svg");
+    display: inline-block;
+    background-size: 100%;
+    margin-right: 5px;
 }
 
 footer {
